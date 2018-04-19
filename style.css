@@ -1,8 +1,5 @@
 @charset "utf-8";    /* 文字コードの指定 */
 
-head{
-  background-size: auto 250px;
-}
 
 body{
   font-size: 14px;
@@ -13,15 +10,13 @@ body{
 
 }
 
-duck.jpg .img {
-  width: auto;
-  height: 500px;
+.flexible-images{
+  max-width: 100%;
+  height: 500px
 }
 
 .continer{
-    max-width:90%;
-    margin:10px;
-    padding: 10px;
+    width:auto;
 }
 
 .sugar{
@@ -30,7 +25,7 @@ duck.jpg .img {
   height: 150px;
   border:solid 1px red;
  margin-bottom: 10px;
- margin-right: 10px;
+ margin-right: 3%;
 
 }
 .ripid{
@@ -39,7 +34,7 @@ duck.jpg .img {
  height: 150px;
   border:solid 1px pink;
  margin-bottom: 10px;
- margin-right: 10px;
+ margin-right: 3%;
 
 }
 .protain{
@@ -48,7 +43,6 @@ duck.jpg .img {
   height: 150px;
   border:solid 1px yellow;
   margin-bottom: 10px;
-  margin-right: 10px;
 }
 
 .box3{
@@ -60,16 +54,14 @@ duck.jpg .img {
 }
 
 .submit{
-  height: auto;
-  width: auto;
+  border-radius:20px 20px 20px 20px;
 }
 
 @media(max-width:768px){
 
-head{
-  background-size: auto 250px
+.flexible-images{
+  height: 250px;
 }
-
 
 .ripid{
   width: auto;
